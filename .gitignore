@@ -1,0 +1,27 @@
+# Lazy.nvim plugin directory
+.lazy/
+.repro/
+
+# Log files
+*.log
+
+# Netrw history
+.netrwhist
+
+# Swap and backup files
+*.swp
+*.swo
+*~
+*.bak
+
+# Undo history
+.undodir/
+
+# macOS
+.DS_Store
+
+# Local machine-specific overrides
+lua/config/local.lua
+
+# Optional: Ignore if you want latest versions always
+# lazy-lock.json
