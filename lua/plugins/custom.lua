@@ -25,7 +25,10 @@ return {
   {
     "LazyVim/LazyVim",
     opts = {
-      colorscheme = "nightfox",
+      -- colorscheme = "nightfox",    -- Default dark
+      -- colorscheme = "dawnfox",  -- Dawn theme
+      -- colorscheme = "duskfox",  -- Dusk theme
+      colorscheme = "carbonfox", -- Very dark
     },
   },
 
@@ -279,7 +282,7 @@ return {
     },
     opts = {
       options = {
-        mode = "tabs",
+        mode = "buffers",
         show_buffer_close_icons = false,
         show_close_icon = false,
       },
